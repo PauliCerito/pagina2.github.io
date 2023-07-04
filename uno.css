@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(250, 228, 247);
+}
+
+h1{
+    font-size: 60px;
+    background-image: linear-gradient(to right, rgba(237, 41, 145, 0.7), rgba(30, 19, 104, 0.3));
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); /* Para navegadores webkit */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+table {
+    background-color: rgb(227, 245, 245);
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+    margin: 30px auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 35px;
+  }
+  .centrado {
+    text-align: center; /* Centra el contenido de las celdas */
+    font-weight: bold;
+  }
+
+  .alCostado{
+
+    text-align: left;
+    background-color: beige;
+  }
+
+
